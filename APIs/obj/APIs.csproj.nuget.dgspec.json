@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\ExpressJS\\APIs\\APIs.csproj": {}
+    "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\APIs\\APIs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\ExpressJS\\APIs\\APIs.csproj": {
+    "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\APIs\\APIs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\ExpressJS\\APIs\\APIs.csproj",
+        "projectUniqueName": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\APIs\\APIs.csproj",
         "projectName": "APIs",
-        "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\ExpressJS\\APIs\\APIs.csproj",
+        "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\APIs\\APIs.csproj",
         "packagesPath": "C:\\Users\\vladm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\ExpressJS\\APIs\\obj\\",
+        "outputPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\APIs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vladm\\AppData\\Roaming\\NuGet\\NuGet.Config"

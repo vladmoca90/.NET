@@ -1,19 +1,23 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+// OpenAPI enables auto-generated API metadata and docs (Swagger UI).
 builder.Services.AddOpenApi();
 
+// Build the application from the configured services.
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+// Only expose OpenAPI docs when the app is running in development.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
 
+// Redirect incoming HTTP traffic to HTTPS for better security.
 app.UseHttpsRedirection();
 
+// Static in-memory list of European countries with capitals, area, and population.
 var europeanCountries = new[]
 {
     new Country("Albania", "Tirana", 28748, 2837744),
@@ -67,9 +71,19 @@ var europeanCountries = new[]
     new Country("United Kingdom", "London", 242495, 67810000)
 };
 
+// Define an endpoint that returns the static list of European countries.
+// The endpoint is available at GET /countries.
 app.MapGet("/countries", () => europeanCountries)
     .WithName("GetEuropeanCountries");
 
+// Start processing incoming HTTP requests.
 app.Run();
 
-record Country(string CountryName, string CountryCapital, int CountrySize, int CountryPopulation);
+// Define the Country record used by the API response.
+// These field names become the JSON property names in the response.
+record Country(
+    string CountryName,
+    string CountryCapital,
+    int CountrySize,
+    int CountryPopulation
+);

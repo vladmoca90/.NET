@@ -14,28 +14,20 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+var players = new[] { "Alcaraz", "Djokovic", "Swiatek", "Sinner", "Zverev" };
 
-app.MapGet("/weatherforecast", () =>
+app.MapGet("/tennis", () =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
+    return Enumerable.Range(1, 5).Select(_ =>
+        new TennisPlayer(
+            players[Random.Shared.Next(players.Length)],
+            Random.Shared.Next(3, 18),
+            Random.Shared.Next(0, 2) == 1
         ))
         .ToArray();
-    return forecast;
 })
-.WithName("GetWeatherForecast");
+.WithName("GetTennisData");
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+record TennisPlayer(string Player, int Aces, bool Winner);

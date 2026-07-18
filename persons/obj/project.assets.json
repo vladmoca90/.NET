@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\Persons.csproj",
+      "projectUniqueName": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\Persons.csproj",
       "projectName": "Persons",
-      "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\Persons.csproj",
+      "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\Persons.csproj",
       "packagesPath": "C:\\Users\\vladm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\obj\\",
+      "outputPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vladm\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -568,5 +568,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

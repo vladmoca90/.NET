@@ -28,6 +28,15 @@ app.MapGet("/tennis", () =>
 })
 .WithName("GetTennisData");
 
+app.MapGet("/flights", () => new[]
+{
+    new Flight(1, "British Airways", "Madrid", 220, 0),
+    new Flight(2, "Ryanair", "Madrid", 95, 1),
+    new Flight(3, "Iberia", "Madrid", 175, 0)
+})
+.WithName("GetFlights");
+
 app.Run();
 
 record TennisPlayer(string Player, int Aces, bool Winner);
+record Flight(int Id, string Airline, string Destination, decimal Price, int Stops);

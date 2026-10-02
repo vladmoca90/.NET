@@ -1,0 +1,6 @@
+@Airlines_HostAddress = http://localhost:5143
+
+GET {{Airlines_HostAddress}}/flights
+Accept: application/json
+
+###

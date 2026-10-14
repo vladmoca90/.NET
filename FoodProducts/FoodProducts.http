@@ -1,0 +1,4 @@
+@FoodProducts_HostAddress = http://localhost:5181
+
+GET {{FoodProducts_HostAddress}}/products
+Accept: application/json

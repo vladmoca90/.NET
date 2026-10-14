@@ -1,0 +1,4 @@
+@Discounts_HostAddress = http://localhost:5180
+
+GET {{Discounts_HostAddress}}/discounts
+Accept: application/json

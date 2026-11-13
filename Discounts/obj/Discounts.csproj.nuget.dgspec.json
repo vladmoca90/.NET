@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\Discounts.csproj": {}
+    "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\Discounts.csproj": {}
   },
   "projects": {
-    "c:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\Discounts.csproj": {
+    "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\Discounts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\Discounts.csproj",
+        "projectUniqueName": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\Discounts.csproj",
         "projectName": "Discounts",
-        "projectPath": "c:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\Discounts.csproj",
+        "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\Discounts.csproj",
         "packagesPath": "C:\\Users\\vladm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\obj\\",
+        "outputPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Discounts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vladm\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\Persons.csproj",
+      "projectUniqueName": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\Persons.csproj",
       "projectName": "Persons",
-      "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\Persons.csproj",
+      "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\Persons.csproj",
       "packagesPath": "C:\\Users\\vladm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\obj\\",
+      "outputPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vladm\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Psx97dkgB+I=",
+  "dgSpecHash": "XhrC8Ungj38=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\Persons.csproj",
+  "projectFilePath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\Persons.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladm\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
     "C:\\Users\\vladm\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
@@ -12,9 +12,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\Persons.csproj",
+      "projectPath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\Persons.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\persons\\Persons.csproj",
+      "filePath": "C:\\Users\\vladm\\OneDrive\\Desktop\\Projects\\.NET\\Persons\\Persons.csproj",
       "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"
